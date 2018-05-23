@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/main_layout.html}" >
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <!--Put Inner content here-->
+    <div layout:fragment="content">
+        <section class="content">
+            <div class="jumbotron">
+                <p>Lorem20 Sump</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
+<th:block th:replace="fragments/static_fragments/javascript::javascript"></th:block>
